@@ -1,0 +1,7 @@
+config BR2_PACKAGE_OPENCV_EXAMPLE
+	bool "OPENCV_EXAMPLE"
+	select BR2_PACKAGE_OPENCV3
+	help
+	  opencv example
+
+comment "a simple opencv example without GUI"
